@@ -28,3 +28,13 @@ See [pouchdb-electron](https://github.com/nolanlawson/pouchdb-electron) for more
 ### node-websql (sqlite3) adpater
 
 Like LevelDB, this requires reinstalling a native module (in this case, [SQLite3](https://github.com/mapbox/node-sqlite3)).
+
+
+## Build app bundle
+
+Run:
+
+    npm run make
+
+
+A folder called `out` will be created and in `out/make` you will found a zip file, in which will be the app bundle for distribution.
