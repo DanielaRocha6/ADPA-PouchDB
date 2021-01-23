@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proyecto ADPA</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <script src="./node_modules/pouchdb/dist/pouchdb.js"></script>
+    <h1>Proyecto ADPA</h1>
+    Para este prototipo de almacenamiento offline de la aplicación se usan:
+    <ul>
+      <li>Node.js version: <script>document.write(process.version)</script></li>
+      <li>Electron version: <script>document.write(process.versions.electron)</script></li>
+      <li>PouchDB version: <script>document.write(PouchDB.version)</script></li>
+    </ul>
+    <button onclick="addItem()">Añadir item</button>
+    <div id="listdb"><script>document.write(getItems())</script></div>
+
+    <div id="leveldb"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <br>Shortcut para ver las dev tools: 'Ctrl/Cmd + Shift + d'
+  </body>
+</html>

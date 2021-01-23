@@ -6,7 +6,8 @@ This is a demo app for 'Proyecto ADPA' in which we create an Electron app using 
 
 Firstable:
 
-    clone project
+    git clone https://github.com/DanielaRocha6/ADPA-PouchDB.git
+    cd ADPA-PouchDB
 
 Then install dependencies:
 
